@@ -1,0 +1,24 @@
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+*.env
+
+# SBT e compilação Scala
+target/
+project/target/
+project/project/
+.bloop/
+.metals/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
